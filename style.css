@@ -13,7 +13,6 @@
 nav{
     width: auto;
     height: 102px;
-    padding: 0px 60px;
     margin-top: -20px;
 }
 
@@ -21,6 +20,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 60px;
 }
 
 #logo{
@@ -77,3 +77,51 @@ font-weight: 600;
 .btn:hover{
   cursor: pointer;
 }
+
+#brgrMenu{
+  display: none;
+}
+
+hr{
+  display: none;
+}
+
+
+
+
+/* Small device */
+@media screen and (max-width: 576px){
+
+  #brgrMenu{
+    display: inline
+  }
+
+  nav{
+    width: auto;
+    height: auto;
+    margin-top: 0;
+}
+
+.navBar{
+  padding: 0px 10px;
+}
+
+#logo > p, .menu, #btn1{
+  display: none;
+}
+
+#logo > img{
+  width: 36px;
+height: 36px;
+}
+
+hr{
+  display: block;
+  border: 0;
+  height: 1px;
+  background-color: rgb(254, 163, 1);
+}
+
+  
+}
+
