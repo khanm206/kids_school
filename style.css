@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* header */
+
 .mainFont{
     font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -10,9 +12,13 @@
   font-optical-sizing: auto;
 }
 
+a{
+text-decoration: none;
+color: black;
+}
+
 header{
-  
-  padding: 0px 60px;
+  margin: 0px 60px;
 }
 
 nav{
@@ -136,6 +142,58 @@ line-height: 30px;
 }
 
 
+/* curriculum */
+
+.curriculum{
+  background-image: url('assets/bg.png');
+  margin: 0 60px;
+}
+
+.curriculum > h2{
+  font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+text-align: center;
+padding: 40px 0;
+}
+
+.scCards{
+  display: flex;
+  gap: 28px;
+
+}
+
+#scCard1{
+  box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#scCard2{
+  box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+#scCard3{
+  box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.cards1{
+  padding: 20px;
+}
+
 
 
 
@@ -147,7 +205,7 @@ line-height: 30px;
   }
 
   header{
-    padding: 0px;
+    margin: 0px;
   }
 
   nav{
