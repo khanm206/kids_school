@@ -253,7 +253,7 @@ line-height: 28.3px;
 .stories{
   background: url('assets/bg.png'),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   padding: 60px 60px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .stories > h2{
@@ -340,6 +340,75 @@ padding: 10px 20px;
 
 .viewAll{
   display: none;
+}
+
+
+/* footer */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 0 60px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: rgb(1, 172, 253);
+  color: white;
+}
+
+.footer3 > p > a{
+  color: white;
+}
+
+.footer1{
+  width: 400px;
+}
+
+.footer2{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer2 > img{
+  width: 82.9px;
+height: 81.65px;
+}
+
+.footer2 > h2{
+  font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+}
+
+.footer1 > p{
+  font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+}
+
+.footer3 > h3{
+  font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.footer3 > p{
+  font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+}
+
+.footer4 > h2{
+  font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+}
+
+.footer4 > div{
+  display: flex;
+  gap: 10px;
 }
 
 
