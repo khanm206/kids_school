@@ -157,7 +157,7 @@ font-weight: 700;
 line-height: 57.5px;
 text-align: center;
 margin-bottom: 60px;
-padding-top: 40px;
+padding-top: 70px;
 }
 
 .scCards{
@@ -195,13 +195,13 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 .cards1{
-  padding: 2% 5%;
+  padding: 30px 30px;
   text-align: center;
 }
 
 .cards1 > img{
   width: 130.7px;
-height: 111.94px;
+height: 120px;
 }
 
 .cards1 > h4{
@@ -287,7 +287,7 @@ hr{
 .hero{
   flex-direction: column-reverse;
   justify-content: center;
-  padding: 0 10px;
+  margin: 0 10px;
 }
 
 #heroTxt{
@@ -315,6 +315,46 @@ line-height: 18px;
   width: 131px;
 height: 42px;
 font-size: 16px;
+}
+
+/* curricilim */
+
+.curriculum{
+  margin: 0 10px;
+}
+
+.curriculum > h2{
+  font-size: 26px;
+font-weight: 700;
+line-height: 33px;
+padding-top: 60px;
+}
+
+.scCards{
+  flex-direction: column;
+}
+
+.cards1 > img{
+  width: 100px;
+height: 90px;
+}
+
+.cards1 > h4{
+  font-size: 16.6px;
+  font-weight: 700;
+  line-height: 20.75px;
+color: rgb(32, 32, 32);
+}
+
+.cards1 > p, .cards1 > a {
+  color: rgb(128, 128, 128);
+  font-size: 10.22px;
+  font-weight: 500;
+  line-height: 19.16px;
+}
+
+.arrow{
+  display: none;
 }
   
 }
