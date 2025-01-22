@@ -144,9 +144,11 @@ line-height: 30px;
 
 /* curriculum */
 
+
 .curriculum{
   background-image: url('assets/bg.png');
   margin: 0 60px;
+  margin-bottom: 40px;
 }
 
 .curriculum > h2{
@@ -154,12 +156,14 @@ line-height: 30px;
 font-weight: 700;
 line-height: 57.5px;
 text-align: center;
-padding: 40px 0;
+margin-bottom: 60px;
+padding-top: 40px;
 }
 
 .scCards{
   display: flex;
   gap: 28px;
+  margin-bottom: 80px;
 
 }
 
@@ -191,7 +195,56 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 }
 
 .cards1{
-  padding: 20px;
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.cards1 > img{
+  width: 130.7px;
+height: 111.94px;
+}
+
+.cards1 > h4{
+  font-size: 24.52px;
+font-weight: 700;
+line-height: 30.65px;
+color: rgb(32, 32, 32);
+}
+
+.cards1 > p, .cards1 > a {
+  color: rgb(128, 128, 128);
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+}
+
+#scCard1 > a{
+  color: rgb(100, 200, 255);
+}
+
+#scCard2 > a{
+  color: rgb(240, 170, 0);
+}
+
+#scCard3 > a{
+  color: rgb(135, 0, 255);
+}
+
+#arrows{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.arrow{
+  background-color: rgb(254, 163, 1);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100%;
+}
+
+.arrow > i{
+  padding: 15px;
 }
 
 
